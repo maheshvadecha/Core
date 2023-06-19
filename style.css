@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    user-select: none;
+}
+
+.topHeader {
+    padding: 1% 6%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FCC349;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 110px;
+    height: 60px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 7px 10px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    /* line-height:21px; */
+    color: #2E3B5E;
+}
+
+.maindiv {
+    position: absolute;
+    top: 100px;
+    padding: 0 6%;
+}
+
+
+/* Home Section Css */
+.home {
+    display: flex;
+}
+
+.home-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.home-maintext {
+    font-size: 48px;
+    color: #2E3B5E;
+    font-weight: 700;
+    line-height: 60px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.home-subtext {
+    font-size: 18px;
+    color: #2E3B5E;
+    font-weight: 500;
+    line-height: 27px;
+    font-style: normal;
+    margin-bottom: 24px;
+}
+
+.home-btn {
+    width: 165px;
+    height: 54px;
+    background: #fcc349;
+    border-radius: 34px;
+    border: none;
+    align-self:  flex-start;
+}
+
+.home-image {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* About Section Css */
+.about h4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    line-height: 60px;
+    color: #2E3B5E  ;
+    font-size: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about h4::before{
+    content:"";
+    width: 75px;
+    height: 5px;
+    background: #2E3B5E;
+    box-sizing: border-box;
+    margin:28px 10px 0 0;
+}
+.about h4::after{
+    content:"";
+    width: 75px;
+    height: 5px;
+    background: #2E3B5E;
+    box-sizing: border-box;
+    margin:28px 0 0 10px;
+}
+
+.about-row{
+    display: grid;
+}
+
+.about-image{
+    width: 50px;
+}
+
+.about-text{
+    width: 50%;
+}
+
